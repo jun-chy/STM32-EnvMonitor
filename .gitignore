@@ -1,0 +1,55 @@
+# ==================== 编译输出 ====================
+Build/
+Exe/
+*.axf
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.o
+*.d
+*.su
+*.i
+*.s
+
+# ==================== IDE/编辑器 ====================
+.vs/
+.vscode/
+*.code-workspace
+.settings/
+*.project
+*.cproject
+
+# Keil MDK
+*.uvguix.*
+RTE/
+Listings/
+Objects/
+
+# STM32CubeIDE
+Debug/
+Release/
+*.launch
+.metadata/
+.cproject
+.project
+.settings/
+
+# STM32CubeMX
+*.mxproject
+
+# SystemView / Tracealyzer
+*.svdat
+*.trc
+
+# ==================== 操作系统 ====================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==================== 其他 ====================
+*.bak
+*.tmp
+*.swp
+*~
