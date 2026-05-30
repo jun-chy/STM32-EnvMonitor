@@ -1,6 +1,14 @@
 # STM32 环境监测系统 (STM32-EnvMonitor)
 
-基于 STM32F4 + FreeRTOS 的多传感器数据采集与显示系统。
+<p align="center">
+  <img src="https://img.shields.io/badge/C-99-A8B9CC?logo=c&logoColor=white" alt="C"/>
+  <img src="https://img.shields.io/badge/FreeRTOS-10.x-1C2D41" alt="FreeRTOS"/>
+  <img src="https://img.shields.io/badge/STM32-F407-0328FC?logo=arm&logoColor=white" alt="STM32"/>
+  <img src="https://img.shields.io/badge/License-MIT-green" alt="License"/>
+  <img src="https://img.shields.io/badge/Sensors-4-informational" alt="Sensors"/>
+</p>
+
+> 基于 STM32F4 + FreeRTOS 的多传感器数据采集与显示系统，支持 AHT20（温湿度）、BH1750（光照）、BMP280（气压）传感器，OLED 实时显示，UART JSON 数据上报。
 
 ## 系统架构
 
@@ -153,9 +161,9 @@ STM32-EnvMonitor/
 
 ### 编译步骤
 
-1. 克隆项目并准备依赖库:
+1. 克隆项目:
 ```bash
-git clone https://github.com/yourname/STM32-EnvMonitor.git
+git clone https://github.com/jun-chy/STM32-EnvMonitor.git
 cd STM32-EnvMonitor
 
 # 将HAL库和FreeRTOS放入Libraries目录
